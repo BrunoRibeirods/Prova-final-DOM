@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Viva Real</title>
+</head>
+
+<body>
+    <header class="toolbar">
+        <img src="https://cdn1.vivareal.com/p/1-ba36604/v/static/app/svg/styleguide/logo/vivareal-5bcdffca.svg" alt="">
+        <ul class="toolbar-itens">
+            <li>Comprar</li>
+            <li>Alugar</li>
+            <li>Imóveis novos</li>
+            <li>Seleção viva real</li>
+            <li>Descobrir</li>
+            <li>Financiamento</li>
+            <li id="item-right">Entrar</li>
+            <li id="item-right">Anunciar Imoveis</li>
+        </ul>
+
+    </header>
+    <section class="search-path-detail"></section>
+    <article class="page-control">
+        <aside class="search-sidebar">
+            <section class="box-search-residence-detail">
+                <section class="section-search-residence-detail">
+                    <span class="text-search-residence-detail">LOCALIZAÇÃO DO IMÓVEL</span>
+                    <input class="input-text-search-residence-detail" id="input-search-residence" type="text"
+                        placeholder="Digite uma rua, bairro ou cidade">
+                </section>
+                <section class="section-search-residence-detail">
+                    <span class="text-search-residence-detail">IMÓVEL COM</span>
+                    <section class="videos-switch">
+                        <div class="switch__container">
+                            <input id="switch-shadow" class="switch switch--shadow" type="checkbox">
+                            <label for="switch-shadow"></label>
+                        </div>
+                        <p>Tour Virtual ou Vídeos</p>
+                    </section>
+                </section>
+                <section class="section-search-residence-detail">
+                    <span class="text-search-residence-detail">TIPO DE IMÓVEL</span>
+                    <select class="input-text-search-residence-detail" disabled>
+                        <option value="">Mostrar Todos</option>
+                    </select>
+                </section>
+
+                <section class="section-search-residence-detail">
+                    <section class="text-search-residence-detail">
+                        <span>PREÇO MÍNIMO</span>
+                        <span>PREÇO MÁXIMO</span>
+                    </section>
+                    <section class="inputs-compare">
+                        <input type="text" placeholder="R$">
+                        <div>-</div>
+                        <input type="text" placeholder="R$">
+                    </section>
+                </section>
+                <section class="section-search-residence-detail">
+                    <span class="text-search-residence-detail">NÚMERO DE QUARTOS</span>
+                    <section>
+                        <ul class="btns-selects">
+                            <li>1+</li>
+                            <li>2+</li>
+                            <li>3+</li>
+                            <li>4+</li>
+                            <li>5+</li>
+                        </ul>
+                    </section>
+                </section>
+
+            </section>
+            <section class="box-search-residence-deep-detail">
+                <section class="section-search-residence-detail">
+                    <section class="text-search-residence-detail">
+                        <span>AREA MÍNIMA</span>
+                        <span>AREA MÁXIMA</span>
+                    </section>
+                    <section class="inputs-compare">
+                        <input type="text" placeholder="m²">
+                        <div>-</div>
+                        <input type="text" placeholder="m²">
+                    </section>
+                </section>
+                <section class="section-search-residence-detail">
+                    <span class="text-search-residence-detail">NÚMERO DE VAGAS NA GARAGEM</span>
+                    <section>
+                        <ul class="btns-selects">
+                            <li>1+</li>
+                            <li>2+</li>
+                            <li>3+</li>
+                            <li>4+</li>
+                            <li>5+</li>
+                        </ul>
+                    </section>
+                </section>
+                <section class="section-search-residence-detail">
+                    <span class="text-search-residence-detail">NÚMERO DE BANHEIROS</span>
+                    <section>
+                        <ul class="btns-selects">
+                            <li>1+</li>
+                            <li>2+</li>
+                            <li>3+</li>
+                            <li>4+</li>
+                            <li>5+</li>
+                        </ul>
+                    </section>
+                </section>
+            </section>
+        </aside>
+        <main class="search-result-control">
+            <nav class="type-of-search">
+                <ul class="filter-of-types">
+                    <li class="active-item-filter-type-of-search">
+                        <p>Comprar</p>
+                    </li>
+                    <li>
+                        <p>Alugar</p>
+                    </li>
+                    <li>
+                        <p>Imóveis novos</p>
+                    </li>
+                    <li>
+                        <p>Seleção viva real</p>
+                    </li>
+                </ul>
+            </nav>
+            <section class="residences-cards-description">
+            </section>
+        </main>
+    </article>
+    <footer></footer>
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
